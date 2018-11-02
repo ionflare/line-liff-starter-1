@@ -68,7 +68,7 @@ function initializeApp(data) {
 
     //test go to external link
     document.getElementById('getlink').addEventListener('click', function () {
-        location.href = "https://cc-line-nuxt.herokuapp.com";
+        location.href = "https://cc-line-nuxt.herokuapp.com?waw=gggg";
     });
 }
 
