@@ -12,6 +12,8 @@ function initializeApp(data) {
     document.getElementById('roomidfield').textContent = data.context.roomId;
     document.getElementById('groupidfield').textContent = data.context.groupId;
 
+  
+
     // openWindow call
     document.getElementById('openwindowbutton').addEventListener('click', function () {
         liff.openWindow({
@@ -60,6 +62,13 @@ function initializeApp(data) {
         }).catch(function (error) {
             window.alert("Error getting profile: " + error);
         });
+    });
+
+
+
+    //test go to external link
+    document.getElementById('getlink').addEventListener('click', function () {
+        location.href = "https://cc-line-nuxt.herokuapp.com";
     });
 }
 
