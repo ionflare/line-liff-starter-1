@@ -67,16 +67,11 @@ function initializeApp(data) {
 
 
     //test go to external link
-<<<<<<< HEAD
     document.getElementById('getlink1').addEventListener('click', function () {
         location.href = "https://line-location-shop.herokuapp.com?www=eeee";
     });
     document.getElementById('getlink2').addEventListener('click', function () {
         location.href = "https://cc-line-nuxt.herokuapp.com";
-=======
-    document.getElementById('getlink').addEventListener('click', function () {
-        location.href = "https://cc-line-nuxt.herokuapp.com?waw=gggg";
->>>>>>> 3f78fa120be72cd8e5b3992c7697e1d4737bba21
     });
 }
 
